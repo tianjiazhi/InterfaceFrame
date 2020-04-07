@@ -1,0 +1,412 @@
+2020-02-29 19:59:32,729 - logs… - INFO - 工作表：Sheet1-->行号：1 ========================================================================================================================================================================================================
+2020-02-29 19:59:32,729 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/user
+2020-02-29 19:59:32,729 - logs… - INFO - 请求方法：  get
+2020-02-29 19:59:32,729 - logs… - INFO - 请求数据：  None
+2020-02-29 19:59:32,729 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 19:59:32,729 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 19:59:32,729 - logs… - INFO - 预期结果：  ['"p": "云森客测试号"', '"shop_name": "花皙蔻旗舰店"']
+2020-02-29 19:59:33,104 - logs… - INFO - 工作表：Sheet1-->行号：2 ========================================================================================================================================================================================================
+2020-02-29 19:59:33,104 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/index/homeGetData
+2020-02-29 19:59:33,104 - logs… - INFO - 请求方法：  get
+2020-02-29 19:59:33,104 - logs… - INFO - 请求数据：  None
+2020-02-29 19:59:33,104 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 19:59:33,104 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 19:59:33,104 - logs… - INFO - 预期结果：  ['"name": "复购金额"']
+2020-02-29 19:59:33,495 - logs… - INFO - 结果比对fail的响应{
+    "exception": "Symfony\\Component\\Debug\\Exception\\FatalThrowableError",
+    "file": "/data/wwwroot/laravel55/app/Common/Count.php",
+    "line": 84,
+    "message": "Call to undefined function App\\Common\\common_get_number()",
+    "trace": [
+        {
+            "class": "App\\Common\\Count",
+            "file": "/data/wwwroot/laravel55/app/Http/Controllers/Index/IndexController.php",
+            "function": "getCountOrder",
+            "line": 168,
+            "type": "::"
+        },
+        {
+            "class": "App\\Http\\Controllers\\Index\\IndexController",
+            "file": "/data/wwwroot/laravel55/app/Http/Controllers/Index/IndexController.php",
+            "function": "homeGetData",
+            "line": 46,
+            "type": "->"
+        },
+        {
+            "class": "App\\Http\\Controllers\\Index\\IndexController",
+            "function": "index",
+            "type": "->"
+        },
+        {
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+            "function": "call_user_func_array",
+            "line": 54
+        },
+        {
+            "class": "Illuminate\\Routing\\Controller",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php",
+            "function": "callAction",
+            "line": 45,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\ControllerDispatcher",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+            "function": "dispatch",
+            "line": 212,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Route",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+            "function": "runController",
+            "line": 169,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Route",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "function": "run",
+            "line": 658,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Router",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 30,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/app/Http/Middleware/TokenLead.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 47,
+            "type": "->"
+        },
+        {
+            "class": "App\\Http\\Middleware\\TokenLead",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "handle",
+            "line": 149,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "line": 53,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 41,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "handle",
+            "line": 149,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "line": 53,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 43,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Auth\\Middleware\\Authenticate",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "handle",
+            "line": 149,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "line": 53,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 57,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "handle",
+            "line": 149,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "line": 53,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 102,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "function": "then",
+            "line": 660,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Router",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "function": "runRouteWithinStack",
+            "line": 635,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Router",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "function": "runRoute",
+            "line": 601,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Router",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "function": "dispatchToRoute",
+            "line": 590,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Router",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+            "function": "dispatch",
+            "line": 176,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "line": 30,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/fideloper/proxy/src/TrustProxies.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 56,
+            "type": "->"
+        },
+        {
+            "class": "Fideloper\\Proxy\\TrustProxies",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "handle",
+            "line": 149,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "line": 53,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 30,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "handle",
+            "line": 149,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "line": 53,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 30,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "handle",
+            "line": 149,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "line": 53,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 27,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "handle",
+            "line": 149,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "line": 53,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 46,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "handle",
+            "line": 149,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "line": 53,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Routing\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "function": "Illuminate\\Routing\\{closure}",
+            "line": 102,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+            "function": "then",
+            "line": 151,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "file": "/data/wwwroot/laravel55/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+            "function": "sendRequestThroughRouter",
+            "line": 116,
+            "type": "->"
+        },
+        {
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "file": "/data/wwwroot/laravel55/public/index.php",
+            "function": "handle",
+            "line": 53,
+            "type": "->"
+        }
+    ]
+}
+2020-02-29 19:59:33,510 - logs… - INFO - 工作表：Sheet1-->行号：3 ========================================================================================================================================================================================================
+2020-02-29 19:59:33,510 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/index/homeGetNotice
+2020-02-29 19:59:33,510 - logs… - INFO - 请求方法：  get
+2020-02-29 19:59:33,510 - logs… - INFO - 请求数据：  None
+2020-02-29 19:59:33,526 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 19:59:33,526 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 19:59:33,526 - logs… - INFO - 预期结果：  ['"message": "获取成功"']
+2020-02-29 19:59:33,838 - logs… - INFO - 工作表：Sheet1-->行号：4 ========================================================================================================================================================================================================
+2020-02-29 19:59:33,838 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/index/homeGetDealwith
+2020-02-29 19:59:33,838 - logs… - INFO - 请求方法：  get
+2020-02-29 19:59:33,838 - logs… - INFO - 请求数据：  None
+2020-02-29 19:59:33,838 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 19:59:33,838 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 19:59:33,838 - logs… - INFO - 预期结果：  ['"message": "获取成功"']
+2020-02-29 19:59:34,182 - logs… - INFO - 工作表：Sheet1-->行号：5 ========================================================================================================================================================================================================
+2020-02-29 19:59:34,182 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/index/homeGetApp
+2020-02-29 19:59:34,182 - logs… - INFO - 请求方法：  get
+2020-02-29 19:59:34,182 - logs… - INFO - 请求数据：  None
+2020-02-29 19:59:34,182 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 19:59:34,182 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 19:59:34,182 - logs… - INFO - 预期结果：  ['"message": "获取成功"']
+2020-02-29 19:59:34,589 - logs… - INFO - 工作表：Sheet2-->行号：1 ========================================================================================================================================================================================================
+2020-02-29 19:59:34,589 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/fans/wechatfans/fansList?page=1&size=10&id=&nick=&phone=17358130386&state=&sid=15&time=&tid=
+2020-02-29 19:59:34,589 - logs… - INFO - 请求方法：  get
+2020-02-29 19:59:34,589 - logs… - INFO - 请求数据：  None
+2020-02-29 19:59:34,589 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 19:59:34,589 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 19:59:34,589 - logs… - INFO - 预期结果：  ['"message": "获取成功"']
+2020-02-29 19:59:34,917 - logs… - INFO - 工作表：Sheet3-->行号：1 ========================================================================================================================================================================================================
+2020-02-29 19:59:34,917 - logs… - INFO - 邮件发送开关配置关闭，请打开开关后可正常自动发送测试报告
+2020-02-29 20:14:54,826 - logs… - INFO - 工作表：Sheet1-->行号：1 ========================================================================================================================================================================================================
+2020-02-29 20:14:54,826 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/user
+2020-02-29 20:14:54,826 - logs… - INFO - 请求方法：  get
+2020-02-29 20:14:54,826 - logs… - INFO - 请求数据：  None
+2020-02-29 20:14:54,826 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 20:14:54,826 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 20:14:54,826 - logs… - INFO - 预期结果：  ['"p": "云森客测试号"', '"shop_name": "花皙蔻旗舰店"']
+2020-02-29 20:16:43,608 - logs… - INFO - 工作表：Sheet1-->行号：1 ========================================================================================================================================================================================================
+2020-02-29 20:16:43,608 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/user
+2020-02-29 20:16:43,608 - logs… - INFO - 请求方法：  get
+2020-02-29 20:16:43,608 - logs… - INFO - 请求数据：  None
+2020-02-29 20:16:43,608 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 20:16:43,608 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 20:16:43,608 - logs… - INFO - 预期结果：  ['"p": "云森客测试号"', '"shop_name": "花皙蔻旗舰店"']
+2020-02-29 20:33:01,853 - logs… - INFO - 工作表：Sheet1-->行号：1 ========================================================================================================================================================================================================
+2020-02-29 20:33:01,853 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/user
+2020-02-29 20:33:01,853 - logs… - INFO - 请求方法：  get
+2020-02-29 20:33:01,853 - logs… - INFO - 请求数据：  None
+2020-02-29 20:33:01,853 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 20:33:01,853 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 20:33:01,853 - logs… - INFO - 预期结果：  ['"p": "云森客测试号"', '"shop_name": "花皙蔻旗舰店"']
+2020-02-29 20:35:09,976 - logs… - INFO - 工作表：Sheet1-->行号：1 ========================================================================================================================================================================================================
+2020-02-29 20:35:09,976 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/user
+2020-02-29 20:35:09,976 - logs… - INFO - 请求方法：  get
+2020-02-29 20:35:09,976 - logs… - INFO - 请求数据：  None
+2020-02-29 20:35:09,976 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 20:35:09,976 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 20:35:09,976 - logs… - INFO - 预期结果：  ['"p": "云森客测试号"', '"shop_name": "花皙蔻旗舰店"']
+2020-02-29 20:35:26,242 - logs… - INFO - 工作表：Sheet1-->行号：1 ========================================================================================================================================================================================================
+2020-02-29 20:35:26,242 - logs… - INFO - 请求地址：  http://466.houtai.yunsenke.com/api/user
+2020-02-29 20:35:26,242 - logs… - INFO - 请求方法：  get
+2020-02-29 20:35:26,242 - logs… - INFO - 请求数据：  None
+2020-02-29 20:35:26,242 - logs… - INFO - 请求头部：  {'Accept': 'application/json, text/plain, */*', 'Accept-Encoding': 'gzip, deflate', 'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8', 'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImUxNjI4NWI4OTY0YTg5ZWE5MWM4NWMwNTdkZWE4Yjk5OWNhMGY1Yjc4ZGZkNDA1YWY1YThjN2JmZmMwY2M5MzNiZGQyZTUwNzkxOTkyOWI2In0.eyJhdWQiOiIyIiwianRpIjoiZTE2Mjg1Yjg5NjRhODllYTkxYzg1YzA1N2RlYThiOTk5Y2EwZjViNzhkZmQ0MDVhZjVhOGM3YmZmYzBjYzkzM2JkZDJlNTA3OTE5OTI5YjYiLCJpYXQiOjE1ODI4NjY2OTUsIm5iZiI6MTU4Mjg2NjY5NSwiZXhwIjoxNTgzNDcxNDk1LCJzdWIiOiIyNjYiLCJzY29wZXMiOltdfQ.ZmVwKUXp-0rcnd1UqAnR4Okk3-4KuZgMnJODK88gjs-arw-5jclm2-qp-U3lkMk2Yu6D16PCa_IrjEffhDHnDy5LvINn4x1d0z0Md-JKaRbwCoS-aQ-IfZaUqoPMcE8-_VwBfI_5uKWa697TN7hKLYJhEKEjez4H52FaWCU3uJg3DCHYGKV-5CPFSIDl9Cih_tY71BK28PJKE3Nss5QPtdVhf8tpgvEGzcjSiD-Ec2jT_dywASicoPSKnXa1sAvaSCZpCykl0z7vOrHk5bfZ-pPfouiAtfK8kOFKPA1vzOfEIgoLllkxvLDH7h6xf97oJA1GAE-kf_NdOHE8Se9ABb35YInuM5nxt_necBwi_xO4jySNdmCT8smf2iKVn3NhVTE67kQF9CMctfMiU0ctWGSOGDqK9E2wzdBnbKVyoBcPNYCAQDwXKN2QxJ5KZtPe-gSKS-wlPSxGjbDXQcJrOMCScq2jcwK-Hvjm7Uik85Qg3aEqIziFs2njCCpQR4Y8rVbct5PaqCXpunTQ-Q2Oz_Q_k7fzg1slYW0SAPDt1VXDPJoClVb04xyA1nGJqX0INaQ4I0b_5SNRpzoCukgT1ZBfcQl7TyuD5C9QfNFCjH9Ig4R4q6ip4nhg2LYkHhTp-RFlP3ylrvlc6Fm9_xykpQg_lorG8_pISVTsOI3gMzI', 'Connection': 'keep-alive', 'Host': '466.houtai.yunsenke.com', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36', 'X-Requested-With': 'XMLHttpRequest', 'X-XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D'}
+2020-02-29 20:35:26,242 - logs… - INFO - Cookies：  {'XSRF-TOKEN': 'eyJpdiI6ImdBbWhRY0E0Z09HTWZrRG1DZ24xUGc9PSIsInZhbHVlIjoiaUFkazFoM3hlSWxXRmJ4WGtGRXdic2JRTEc0NjVadGw3djhyMjZVSFBXRm1ONU5VMHY4RzZUOHErcG4zWDZJVFZLbytKZ3BqR1NVOENBeEJvS3RYdGc9PSIsIm1hYyI6ImQwZmJhYjBlMzlkOGI0OTRiNmZiNzE5M2VlMDQ2M2JjMGI3MTk4MjQ0NmE3NDE0Y2VmM2U0MjgwZThlMzZmMmEifQ%3D%3D', 'auth_id': '6ecce6c626f0119f87bbad1e338b5bc7', 'auth_sys': 'd41d8cd98f00b204e9800998ecf8427e', 'refresh_token': 'def502003dc590f8028b6f6c72a2daaede69551b05a8333a02be312421c4a9e79fb4c8e65bd0f3f7258c1f1aba9758faee860ee97b69416aee36fc7ded3f97cb41b5bf72a8286577f4379f30c0c363c1baf2168586e473a23985115aa328ed932ed881439b0fc073bb4501158abaa75a6a62818c8213776d7d8db37c5bb848a4dbf65c5dd7fcad72849995cc9d59722861a9d5976ab0ea3cc9c06f9efa3b30c9b94f3e77c16636f442d0388c51a434e99153f43f2edba8733dd90a23b1bdaadc85ba05fa9d6359de514eadf536d8636ea014f592e2052c00f8934683df07185b1c154dc6dd3a4a76a161302175856b90220ea3e4f0aa33decaa950559990cd5e3950d696387cb779c23a897c0a58a541f75f4c9a8a8e3ae18df96daef279a5634087c9cc9c55eefb7c9ab55a2759242908ce6b8c7a02d37665dd7c2006628679e0634a30e96f08a465601a3ef41df36483e950e4688f2d9e9b5e45692c5abb8a1183e2', 'yunsenke_session': 'eyJpdiI6ImRcL3RNNXl6dHUrb2QrcG9pSjdPd1dnPT0iLCJ2YWx1ZSI6Im1OUncxQVFwR3lnTmpScjVuSnM0NENHQSt2VEhidnBDQlUyRytjZXd6dFNQb2lpb0hqeGkrN1ZqejVwemVPTldHM1JSbSt6R0FUcmUwWEk0VEdDWTRnPT0iLCJtYWMiOiIwNmVjNzlhNTAwNmY1ZWI2MGE2ZmMyZWQyMGVmNTk5YmJlNjQ3MTg0NTgxNTMzNDRjNTNkZTViOWFiM2JhYzA4In0%3D'}
+2020-02-29 20:35:26,242 - logs… - INFO - 预期结果：  ['"p": "云森客测试号"', '"shop_name": "花皙蔻旗舰店"']

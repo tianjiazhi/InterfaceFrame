@@ -1,0 +1,31 @@
+{ "store":{
+     "book":[
+      { "category":"参考",
+         "author":"Nigel Rees",
+         "title":"世纪风俗",
+         "price":8.95
+      },
+      { "category":"小说",
+         "author":"Evelyn Waugh",
+         "title":"荣誉剑",
+         "price":12.99
+      },
+      { "category":"小说",
+         "author":"Herman Melville",
+         "title":"Moby Dick",
+         "isbn":"0-553-21311-3",
+         "price":8.99
+      },
+      { "category":"小说",
+         "author":"JRR Tolkien",
+         "title":"指环王",
+         "isbn":"0-395-19395-8",
+         "price":22.99
+      }
+    ],
+    " bicycle":{
+       " color":"red",
+       " price":19.95
+    }
+  }
+}
